@@ -1,19 +1,55 @@
 aid: holor-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/holor-media.png
 name: Holor Media
-description: Holor Media is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Holor Media was an integrated immersive media technology company founded
+  in 2015 and based in Los Angeles and San Francisco. It focused on 360/VR content
+  creation and distribution, building augmented and virtual reality authoring tools
+  aimed at the next generation of social, interactive XR (extended reality) experiences,
+  including interactive 360 apps for the Transformers film franchise. It raised seed
+  funding from 500 Global (formerly 500 Startups), Skyline Ventures, and WI Harper
+  Group. The company is now permanently closed and its former domain (holor.com) is
+  a parked, for-sale listing on Afternic, so there is no active developer surface,
+  API, documentation, or SDK to profile. This record is retained as a historical
+  portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/holor-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-investors:
+- 500 Global
+- Skyline Ventures
+- WI Harper Group
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Company permanently closed; holor.com parked/for-sale on Afternic
+  (verified 2026-07-19, HTTP 200 redirect to afternic.com/forsale/holor.com). No live
+  developer surface exists.
+x-founded: '2015'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Immersive Media
+- Augmented Reality
+- Virtual Reality
+- 360 Video
+- Extended Reality
+- Content Creation
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +59,11 @@ maintainers:
 common:
 - type: Website
   url: https://holor.com
+  x-status: parked
+  x-note: Domain parked/for-sale on Afternic as of 2026-07-19; not an active company
+    site.
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
