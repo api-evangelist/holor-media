@@ -38,7 +38,7 @@ x-status-detail: Company permanently closed; holor.com parked/for-sale on Aftern
   (verified 2026-07-19, HTTP 200 redirect to afternic.com/forsale/holor.com). No live
   developer surface exists.
 x-founded: '2015'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
